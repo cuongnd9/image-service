@@ -8,7 +8,7 @@
   "license": "MIT",
   "scripts": {
     "build": "tsc",
-    "start:dev": "nodemo --exec ts-node src/index.ts",
+    "start:dev": "nodemon --exec ts-node src/index.ts",
     "start": "node ./build/index.js"
   },
   "devDependencies": {
@@ -19,7 +19,11 @@
     "typescript": "^3.7.2"
   },
   "dependencies": {
+    "body-parser": "^1.19.0",
+    "cloudinary": "^1.17.0",
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "global": "^4.4.0"
+    "global": "^4.4.0",
+    "multer": "^1.4.2"
   }
 }

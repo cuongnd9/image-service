@@ -1,12 +1,6 @@
-import express = require('express');
+import http from 'http';
+import app from './app';
+import config from './config';
 
-// Create a new express application instance
-const app: express.Application = express();
-
-app.get('/', function(req, res) {
-  res.send('Xin chào 🦄👋');
-});
-
-app.listen(8000, function() {
-  console.log('Server is listening on port 8000!');
-});
+const server = http.createServer(app);
+server.listen(config.port, () => console.log(`Server is listening on port ${config.port}`))

@@ -4,7 +4,7 @@ import express = require('express');
 const app: express.Application = express();
 
 app.get('/', function(req, res) {
-  res.send('Xin chào 👋');
+  res.send('Xin chào 🦄👋');
 });
 
 app.listen(8000, function() {

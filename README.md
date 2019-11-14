@@ -2,24 +2,30 @@
 
 🚀🖼️ A minimal service for uploading image.
 
-*Easy way to upload image on Cloudiary.*
+_Easy way to upload image on Cloudiary._
 
 ## Prepare
 
 - You need a [Cloudiary](https://cloudinary.com) account.
-- Get `CLOUDINARY_URL` from [Cloudiary Dashboard](https://cloudinary.com/console)
+- Get `cloud_name`, `api_key`, `api_secret` from [Cloudiary Dashboard](https://cloudinary.com/console)
 
 <img src="./images/cloudiary.png" alt="cloudiray" width=600 />
 
 ## Usage
 
+**domain**: https://image-servicee.herokuapp.com/
+
 **headers**
 
 ```
 {
-  cloudiary_url: <Your CLOUDINARY_URL>
+  cloud_name: <Your cloud_name>
+  api_key: <Your api_key>
+  api_secret: <Your api_secret>
 }
 ```
+
+---
 
 ### `Upload single image`
 
@@ -32,6 +38,8 @@
   image: <Your image>
 }
 ```
+
+---
 
 ### `Upload multi image`
 

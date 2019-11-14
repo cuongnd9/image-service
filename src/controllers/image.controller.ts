@@ -3,12 +3,12 @@ import imageService from '../services/image.service';
 
 class ImageController {
   uploadSingle(req: Request, res: Response) {
-    const { file } = req;
-    return imageService.uploadSingleImage(file);
+    const { file, headers: { cloud_name, api_key, api_secret } } = req;
+    return imageService.uploadSingleImage(file, { cloud_name, api_key, api_secret });
   }
   uploadMulti(req: Request, res: Response) {
-    const { files } = req;
-    return imageService.uploadMultiImage(files);
+    const { files, headers: { cloud_name, api_key, api_secret } } = req;
+    return imageService.uploadMultiImage(files, { cloud_name, api_key, api_secret });
   }
 }
 

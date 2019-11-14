@@ -2,6 +2,18 @@
 # yarn lockfile v1
 
 
+"@hapi/boom@^8.0.1":
+  version "8.0.1"
+  resolved "https://registry.yarnpkg.com/@hapi/boom/-/boom-8.0.1.tgz#13f1f2f2a3abfb0787c79e35e238c8aff6aa1661"
+  integrity sha512-SnBM2GzEYEA6AGFKXBqNLWXR3uNBui0bkmklYXX1gYtevVhDTy2uakwkSauxvIWMtlANGRhzChYg95If3FWCwA==
+  dependencies:
+    "@hapi/hoek" "8.x.x"
+
+"@hapi/hoek@8.x.x":
+  version "8.5.0"
+  resolved "https://registry.yarnpkg.com/@hapi/hoek/-/hoek-8.5.0.tgz#2f9ce301c8898e1c3248b0a8564696b24d1a9a5a"
+  integrity sha512-7XYT10CZfPsH7j9F1Jmg1+d0ezOux2oM2GfArAzLwWe4mE2Dr3hVjsAL6+TFY49RRJlCdJDMw3nJsLFroTc8Kw==
+
 "@types/body-parser@*":
   version "1.17.1"
   resolved "https://registry.yarnpkg.com/@types/body-parser/-/body-parser-1.17.1.tgz#18fcf61768fb5c30ccc508c21d6fd2e8b3bf7897"

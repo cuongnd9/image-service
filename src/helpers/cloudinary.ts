@@ -7,10 +7,7 @@ export default async function cloudinary(cloudiaryConfig: any, path: string): Pr
       if (error) {
         return reject(error);
       }
-      resolve({
-        url: result.url,
-        id: result.public_id
-      });
+      resolve(result);
     });
   });
 }

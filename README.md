@@ -1,3 +1,3 @@
-# gateway
+# image-service
 
-🐠 API Gateway for PetIsland.
+🚀🖼️ A minimal service for uploading image.

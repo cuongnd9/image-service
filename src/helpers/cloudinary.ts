@@ -1,11 +1,7 @@
-import dotenv from 'dotenv';
-dotenv.config();
 import { v2 as service } from 'cloudinary';
-import config from '../config';
 
-service.config(config.cloudinaryUrl);
-
-export default function cloudinary(path: string): Promise<any> {
+export default async function cloudinary(cloudiaryConfig: any, path: string): Promise<any> {
+  service.config(cloudiaryConfig);
   return new Promise((resolve, reject) => {
     service.uploader.upload(path, (error: any, result: any) => {
       if (error) {

@@ -2,14 +2,14 @@
 
 🚀🖼️ A minimal service for uploading image.
 
-*Easy way to upload image on Cloudiary*
+*Easy way to upload image on Cloudiary.*
 
 ## Prepare
 
 - You need a [Cloudiary](https://cloudinary.com) account.
 - Get `CLOUDINARY_URL` from [Cloudiary Dashboard](https://cloudinary.com/console)
 
-![cloudiray](./images/cloudiary.png)
+<img src="./images/cloudiary.png" alt="cloudiray" width=600 />
 
 ## Usage
 
@@ -43,5 +43,6 @@
 {
   images: <Your images>
 }
+```
 
-Build with ❤️ + ☕
+Build with 🙌 + ☕

@@ -3,7 +3,12 @@ import imageService from '../services/image.service';
 
 class ImageController {
   uploadSingle(req: Request, res: Response) {
-    return imageService.uploadSingleImage();
+    const { file } = req;
+    return imageService.uploadSingleImage(file);
+  }
+  uploadMulti(req: Request, res: Response) {
+    const { files } = req;
+    return imageService.uploadMultiImages(files);
   }
 }
 

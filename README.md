@@ -4,6 +4,8 @@
 
 _Easy way to upload image on Cloudiary._
 
+![cat](./images/cat.gif)
+
 ## Prepare
 
 - You need a [Cloudiary](https://cloudinary.com) account.

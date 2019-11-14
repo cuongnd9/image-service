@@ -1,5 +1,5 @@
 {
-  "name": "gateway",
+  "name": "image-service",
   "version": "1.0.0",
   "description": "🐠 API Gateway for PetIsland.",
   "main": "index.ts",

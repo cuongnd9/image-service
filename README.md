@@ -33,7 +33,7 @@ _Easy way to upload image on Cloudiary._
 
 **POST** /api/image/upload-single
 
-**body**
+**body** (form-data)
 
 ```
 {
@@ -47,7 +47,7 @@ _Easy way to upload image on Cloudiary._
 
 **POST** /api/image/upload-multi
 
-**body**
+**body** (form-data)
 
 ```
 {

@@ -5,6 +5,7 @@
 _Easy way to upload image on Cloudiary._
 
 ![cat](./images/cat.gif)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fcuongw%2Fimage-service.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fcuongw%2Fimage-service?ref=badge_shield)
 
 ## Prepare
 
@@ -56,3 +57,7 @@ _Easy way to upload image on Cloudiary._
 ```
 
 Build with 🙌 + ❤️
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fcuongw%2Fimage-service.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fcuongw%2Fimage-service?ref=badge_large)
